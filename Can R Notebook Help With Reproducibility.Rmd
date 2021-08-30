@@ -12,33 +12,3 @@ Discussion
 Conclusion
 
 References
-
-Stoff:
-
-Gentleman & Lang
-
--   Computable Compendiums (2004?)
-
-Løser dette alle problemer med reproduserbarhet?
-
--   Ikkje fullt ut, men rett vei.
-
-Forutsatt: Samme OS, Samme R-Versjon & Samme pakkar --\> Skal i teorien få identisk resultat.
-
-Kan vera små avvik i store tunge kalkuleringar som kan føre til ulike resultat. Kan også komme nye teoriar og metodar om korleis ein løyser visse kalkuleringar.
-
-Replikerbarhet:
-
--   Docker:
-
-    -   Virtuell datamaskin (Identisk virtuell datamaskin, slik at alt blir likt)
-
-    -   Operativsystem og bibliotek
-
-    -   R
-
-    -   R pakkar som blir brukt
-
-    -   R Notebook & datafiler
-
-\>Test\<
