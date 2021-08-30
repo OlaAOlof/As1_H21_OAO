@@ -40,3 +40,5 @@ Replikerbarhet:
     -   R pakkar som blir brukt
 
     -   R Notebook & datafiler
+
+\>Test\<
