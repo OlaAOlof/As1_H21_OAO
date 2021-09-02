@@ -13,8 +13,16 @@ In more modern times a new idea around this have been brought up: computable doc
 
 **Short literature review**
 
+Kort om litteraturen? eller e da Kem seie ka? Ka vil han ha her?
+
+Spør Arnstein om detta
+
 **Discussion**
 
+Why is reproducibilty important? What are the issues surrounding it? What steps have been taken to improve the situation? What does scientist say about it?
+
 **Conclusion**
+
+Help? Yes, to a degree. Solve/Fix the problem? No, atleast not yet. Too many issues. Different systems, different OS, different software and packages. Theories and calculations can change over time. Packages being updated/outdated. R have "Session Info" to list systems, maybe a library of packages would help? It's seems to be a step in the right direction, but it still remains issues around reproducibility even with the help of computable documents like R Notebook.
 
 **References**
