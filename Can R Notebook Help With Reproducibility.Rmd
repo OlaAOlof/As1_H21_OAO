@@ -7,6 +7,9 @@ output:
 
 # Introduction
 
+---
+#**DETTE ER EN TEST FRA KEVIN. DATO 02. SEPT. KL 21.25.**
+
 ## What is reproducibility?
 
 In science it's by some considered to be the holy grail of statistics. Basically it means doing an experiment or research multiple times by different people or groups, with the same numbers and get the same result.
