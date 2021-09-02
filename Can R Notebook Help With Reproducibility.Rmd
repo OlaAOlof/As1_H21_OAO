@@ -3,26 +3,32 @@ title: "Can R Notebooks help with reproducibility?"
 output: html_notebook
 ---
 
-**Introduction**
+# Introduction
 
-What is reproducibility? In science it's by some considered to be the holy grail of statistics. Basically it means doing an experiment or research multiple times by different people or groups, with the same numbers and get the same result.
+## What is reproducibility?
+
+In science it's by some considered to be the holy grail of statistics. Basically it means doing an experiment or research multiple times by different people or groups, with the same numbers and get the same result.
+
+## Challenges
 
 One of the big challenges of (statistical?/Data?) science has been to reproduce the identical results from an earlier research. In a significant amount of research it has proved hard or flat out impossible to reproduce the results from other peoples and older research for a multitude of reasons. One of the big reason is quite simply that the data used in the research is unobtainable, due to them being "too old" or lost. Another reason is the author doesn't want to share the data or can't find it (again, lost). Other challenges is the usage of different systems, equipment, and so on. Theories around the research and calculations can also change over time.
 
+## Computable Documents
+
 In more modern times a new idea around this have been brought up: computable documents. The idea behind this is when publishing a research paper, one submits the data, equations and calculations together with a document that's computable. That way when other researches wants to run the experiment, they have access to everything, and can see what others did before them. So the question then becomes: can computable documents like R Notebook help with reproducibility?
 
-**Short literature review**
+# Short literature review
 
 Kort om litteraturen? eller e da Kem seie ka? Ka vil han ha her?
 
 Spør Arnstein om detta
 
-**Discussion**
+# Discussion
 
 Why is reproducibilty important? What are the issues surrounding it? What steps have been taken to improve the situation? What does scientist say about it?
 
-**Conclusion**
+# Conclusion
 
 Help? Yes, to a degree. Solve/Fix the problem? No, atleast not yet. Too many issues. Different systems, different OS, different software and packages. Theories and calculations can change over time. Packages being updated/outdated. R have "Session Info" to list systems, maybe a library of packages would help? It's seems to be a step in the right direction, but it still remains issues around reproducibility even with the help of computable documents like R Notebook.
 
-**References**
+# References
