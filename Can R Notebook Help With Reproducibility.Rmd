@@ -25,6 +25,8 @@ According to McNutt (2014) advancing in science is reliant on discoveries that c
 
 Already in the early 1930's the accessability to the data for a research was aired by Frisch He stated that in statistical research, the raw data should be published (1933). Later in the 1960's it was deemed nearly impossible to reproduce research on economy with big models. Then in 1982 there was a research project done: the Journal of Money, Credit and Banking, where they tried to replicate research article with only the submitted data. This is looking back, very close to reproducibility in modern terms. The results was a staggering 2 of 70 articles could be reproduced. They concluded was because for the most part missing data, documentation and computer systems, as quite few of the authors would provide their data and coding. (Kilde. Arnstein sin e paywall) To counteract this, they came up the solution to store the coding and raw data used in research articles, which in a sense is the foundation of computable documents today.
 
+----
+
 Kva starta "computable documents" med og kortid? Ka e gjort i forkant ang. R Notebook-programmer og reproduserbarhet? Ka seie forfattar X om Y? Ka seie Forfattar Z om Y? Litt "bakgrunn" for detta med "computable documents".
 
 --\> ca. 1 sida +/-
