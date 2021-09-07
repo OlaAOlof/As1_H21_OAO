@@ -19,9 +19,9 @@ In more modern times a new idea around this have been brought up: computable doc
 
 # Short literature review
 
-Kort om litteraturen? eller e da Kem seie ka? Ka vil han ha her?
+Kva starta "computable documents" med og kortid? Ka e gjort i forkant ang. R Notebook-programmer og reproduserbarhet? Ka seie forfattar X om Y? Ka seie Forfattar Z om Y? Litt "bakgrunn" for detta med "computable documents".
 
-Spør Arnstein om detta
+--\> ca. 1 sida +/-
 
 # Discussion
 
