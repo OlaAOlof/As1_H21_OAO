@@ -4,10 +4,21 @@ output: html_notebook
 ---
 
 # Introduction
+In this document we will look at reproducibility and the importance of it.
+In this context, we will address the topic of using "R Notebook" in RStudio.
+
+We'll look into theory regarding reproducibility and R Notebook, which we will also link to an analysis.
+
 
 ## What is reproducibility?
 
 In science it's by some considered to be the holy grail of statistics. Basically it means doing an experiment or research multiple times by different people or groups, with the same numbers and get the same result.
+
+* Kevin kladder:
+This is desirable because it is important that the findings are robust, trustworthy, and conducted in a satisfactory way.
+Reproducibility is one important approach that scientists use to gain confidence in their conclusions (McNutt, 2014). How confident in a conclusion would one be if the scientist could not reproduce the result and conclude similarly again? She states that this confidence is important regarding the broad scientific community. This is due to the scientifical knowledge is public in a special sense. It does not only exist in the mind of the particular researcher, but one could argue that the knowledge does not exist until it has been submitted to the scientific community for criticism and empirical testing (Stanovich, 2014). He elucidates this matter by introducing the term replication. The term is understood to mean that a finding must be presented to the scientific community in a way that allows fellow scientists to re-do the study and achieve the same results.
+	Researchers often use the terms replicability and reproducibility interchangeably, but it is useful to distinguish between them. Replicability is “re-performing the experiment and collecting new data,” whereas reproducibility is “re-performing the same analysis with the same code using a different analyst” (Patil et al., 2016). According to Stanovich (2014), one of the most important criteria for scientists is that the findings are presented in a way that they can be replicated, exposed for criticism, or extended further on. This is due to the same reason reproducibility is important – as mentioned initially.
+
 
 ## Challenges
 
@@ -18,14 +29,9 @@ One of the big challenges of (statistical?/Data?) science has been to reproduce 
 In more modern times a new idea around this have been brought up: computable documents. The idea behind this is when publishing a research paper, one submits the data, equations and calculations together with a document that's computable. That way when other researches wants to run the experiment, they have access to everything, and can see what others did before them. So the question then becomes: can computable documents like R Notebook help with reproducibility?
 
 # Short literature review
-
-<<<<<<< HEAD
-Kort om litteraturen? eller e da Kem seie ka? Ka vil han ha her?
-=======
 According to McNutt (2014) advancing in science is reliant on discoveries that can be trusted, but stated that studies that have been performed, can't be reproduced. In tandum with this, Peng (2011) has brought up the idea that reproducibility should be a requirement for publishing research.
 
 Already in the early 1930's the accessability to the data for a research was aired by Frisch He stated that in statistical research, the raw data should be published (1933). Later in the 1960's it was deemed nearly impossible to reproduce research on economy with big models. Then in 1982 there was a research project done: the Journal of Money, Credit and Banking, where they tried to replicate research article with only the submitted data. This is looking back, very close to reproducibility in modern terms. The results was a staggering 2 of 70 articles could be reproduced. They concluded was because for the most part missing data, documentation and computer systems, as quite few of the authors would provide their data and coding. (Kilde. Arnstein sin e paywall) To counteract this, they came up the solution to store the coding and raw data used in research articles, which in a sense is the foundation of computable documents today.
->>>>>>> main
 
 Spør Arnstein om detta
 
