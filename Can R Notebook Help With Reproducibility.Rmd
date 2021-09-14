@@ -27,9 +27,20 @@ Reproducibility is one important approach that scientists use to gain confidence
 
 One of the big challenges of (statistical?/Data?) science has been to reproduce the identical results from an earlier research. In a significant amount of research it has proved hard or flat out impossible to reproduce the results from other peoples and older research for a multitude of reasons. One of the big reason is quite simply that the data used in the research is unobtainable, due to them being "too old" or lost. Another reason is the author doesn't want to share the data or can't find it (again, lost). Other challenges is the usage of different systems, equipment, and so on. Theories around the research and calculations can also change over time.
 
+#### How big of a challenge is it?
+
+* Kevin:
+According to a analysis conducted by Mccullough (2009), most economics journals take no substantive measures to ensure that the results they publish are replicable. Top economics journals have been adopting mandatory data+code archives in the past few years. The movement toward mandatory data+code archives has yet to reach the open access journals
+Open Access (OA) journals are often perceived, rightly or wrongly, as having a second-class status compared to traditional journals. Note that in the list of top 50 journals in Table 1, not a single journal is OA.
+
+
 ## Computable Documents
 
 In more modern times a new idea around this have been brought up: computable documents. The idea behind this is when publishing a research paper, one submits the data, equations and calculations together with a document that's computable. That way when other researches wants to run the experiment, they have access to everything, and can see what others did before them. So the question then becomes: can computable documents like R Notebook help with reproducibility?
+
+- Kevin:
+
+Computable Document Format (CDF) is an electronic document format designed to allow authoring dynamically generated, interactive content (‘Computable Document Format’, 2021). The format was designed to emprove or kill the PDF by making a document the reader could interact with, by using sliders, menus, and buttons which PDF does not allow. This consequently increases engagement in the readers and their understanding. 
 
 # Short literature review
 
