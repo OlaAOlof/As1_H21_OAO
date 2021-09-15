@@ -7,10 +7,6 @@ output:
 
 # Introduction
 
----
-#**DETTE ER EN TEST FRA KEVIN. DATO 02. SEPT. KL 21.25.**
-#Edit: **Kevin har laget en branch "Kevin_tester_branch" 06. sept"
-
 ## What is reproducibility?
 
 In science it's by some considered to be the holy grail of statistics. Basically it means doing an experiment or research multiple times by different people or groups, with the same numbers and get the same result.
@@ -22,6 +18,9 @@ One of the big challenges of (statistical?/Data?) science has been to reproduce 
 ## Computable Documents
 
 In more modern times a new idea around this have been brought up: computable documents. The idea behind this is when publishing a research paper, one submits the data, equations and calculations together with a document that's computable. That way when other researches wants to run the experiment, they have access to everything, and can see what others did before them. So the question then becomes: can computable documents like R Notebook help with reproducibility?
+
+
+
 
 # Short literature review
 
