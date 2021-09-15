@@ -17,13 +17,9 @@ One of the big challenges of (statistical?/Data?) science has been to reproduce 
 
 In more modern times a new idea around this have been brought up: computable documents. The idea behind this is when publishing a research paper, one submits the data, equations and calculations together with a document that's computable. That way when other researches wants to run the experiment, they have access to everything, and can see what others did before them. So the question then becomes: can computable documents like R Notebook help with reproducibility?
 
-
-
-
-
-
-
 # Short literature review
+
+Kort om litteraturen? eller e da Kem seie ka? Ka vil han ha her?
 
 According to McNutt (2014) advancing in science is reliant on discoveries that can be trusted, but stated that studies that have been performed, can't be reproduced. In tandum with this, Peng (2011) has brought up the idea that reproducibility should be a requirement for publishing research.
 
