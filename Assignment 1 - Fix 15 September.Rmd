@@ -1,9 +1,10 @@
 ---
 title: "Can R Notebooks help with reproducibility?"
 output:
-  pdf_document: default
+  word_document: default
   html_notebook: default
-bibliography: OA_Zotero.bib
+  pdf_document: default
+bibliography: OA&Kevin_Zotero.bib
 ---
 
 # Introduction
@@ -24,7 +25,7 @@ In more modern times a new idea around this have been brought up: computable doc
 
 # Short literature review
 
-Computable Document Format (CDF) is an electronic document format designed to allow authoring dynamically generated, interactive content ('Computable Document Format', 2021). The format was designed to emprove or kill the PDF by making a document the reader could interact with, by using sliders, menus, and buttons which PDF does not allow. This consequently increases engagement in the readers and their understanding.
+Computable Document Format (CDF) is an electronic document format designed to allow authoring dynamically generated, interactive content @ComputableDocumentFormat2021. The format was designed to emprove or kill the PDF by making a document the reader could interact with, by using sliders, menus, and buttons which PDF does not allow. This consequently increases engagement in the readers and their understanding.
 
 According to @mcnuttReproducibility2014 advancing in science is reliant on discoveries that can be trusted, but stated that studies that have been performed, can't be reproduced. In tandum with this, Peng @pengReproducibleResearchComputational2011 has brought up the idea that reproducibility should be a requirement for publishing research.
 
@@ -32,7 +33,7 @@ Already in the early 1930's the accessability to the data for a research was air
 
 # Discussion
 
-Reproducibility is one important approach that scientists use to gain confidence in their conclusions @mcnuttReproducibility2014. How confident in a conclusion would one be if the scientist could not reproduce the result and conclude similarly again? She states that this confidence is important regarding the broad scientific community. This is due to the scientifical knowledge is public in a special sense. It does not only exist in the mind of the particular researcher, but one could argue that the knowledge does not exist until it has been submitted to the scientific community for criticism and empirical testing stanovichHowThinkStraight2014. He elucidates this matter by introducing the term replication. The term is understood to mean that a finding must be presented to the scientific community in a way that allows fellow scientists to re-do the study and achieve the same results.
+Reproducibility is one important approach that scientists use to gain confidence in their conclusions @mcnuttReproducibility2014. How confident in a conclusion would one be if the scientist could not reproduce the result and conclude similarly again? She states that this confidence is important regarding the broad scientific community. This is due to the scientifical knowledge is public in a special sense. It does not only exist in the mind of the particular researcher, but one could argue that the knowledge does not exist until it has been submitted to the scientific community for criticism and empirical testing @stanovichHowThinkStraight2014. He elucidates this matter by introducing the term replication. The term is understood to mean that a finding must be presented to the scientific community in a way that allows fellow scientists to re-do the study and achieve the same results.
 
 According to a analysis conducted by @mcculloughOpenAccessEconomics2009, most economics journals take no substantive measures to ensure that the results they publish are replicable. Top economics journals have been adopting mandatory data+code archives in the past few years. The movement toward mandatory data+code archives has yet to reach the open access journals. Open Access (OA) journals are often perceived, rightly or wrongly, as having a second-class status compared to traditional journals. Note that in the list of top 50 journals in Table 1, not a single journal is OA. (Du la detta inn under challenges, men detta e vel meir diskusjon?)
 
