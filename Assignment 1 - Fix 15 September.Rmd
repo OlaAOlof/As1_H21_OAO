@@ -3,6 +3,7 @@ title: "Can R Notebooks help with reproducibility?"
 output:
   pdf_document: default
   html_notebook: default
+bibliography: AG_Zotero.bib
 ---
 
 # Introduction
@@ -25,7 +26,7 @@ In more modern times a new idea around this have been brought up: computable doc
 
 Computable Document Format (CDF) is an electronic document format designed to allow authoring dynamically generated, interactive content ('Computable Document Format', 2021). The format was designed to emprove or kill the PDF by making a document the reader could interact with, by using sliders, menus, and buttons which PDF does not allow. This consequently increases engagement in the readers and their understanding.
 
-According to McNutt (2014) advancing in science is reliant on discoveries that can be trusted, but stated that studies that have been performed, can't be reproduced. In tandum with this, Peng (2011) has brought up the idea that reproducibility should be a requirement for publishing research.
+According to @mcnuttReproducibility2014 advancing in science is reliant on discoveries that can be trusted, but stated that studies that have been performed, can't be reproduced. In tandum with this, Peng (2011) has brought up the idea that reproducibility should be a requirement for publishing research.
 
 Already in the early 1930's the accessability to the data for a research was aired by Frisch He stated that in statistical research, the raw data should be published (1933). Later in the 1960's it was deemed nearly impossible to reproduce research on economy with big models. Then in 1982 there was a research project done: the Journal of Money, Credit and Banking, where they tried to replicate research article with only the submitted data. This is looking back, very close to reproducibility in modern terms. The results was a staggering 2 of 70 articles could be reproduced. They concluded was because for the most part missing data, documentation and computer systems, as quite few of the authors would provide their data and coding. (Kilde. Arnstein sin e paywall) To counteract this, they came up the solution to store the coding and raw data used in research articles, which in a sense is the foundation of computable documents today.
 
@@ -50,3 +51,8 @@ There's also willingness. Creating a big R Notebook or computable document with 
 To summarize, computable documents like R Notebook definitly helps with reproducibilty, but it doesn't solve the issue, atleast not yet. There are currently too many problems both human and technical. There's progress in these areas like using identical computer setups from a server, libraries of software and packages, as they were, are currently being developed, the option to check the system for the setup it used when the research was first done, and so on. So while it doesn't fix the issue, it jelps and it's definitly a step in the right direction.
 
 # Reference
+
+::: {#refs}
+:::
+
+# Appendix
