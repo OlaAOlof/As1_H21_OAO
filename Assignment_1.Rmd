@@ -102,6 +102,8 @@ To summarize, computable documents like R Notebook definitely helps with reprodu
 
 # Appendix
 
+![](Commits_And_Branches.PNG)
+
 ![](Merge_Conflict_OA.PNG)
 
 ![](Merge_Conflict_KH.JPEG)
