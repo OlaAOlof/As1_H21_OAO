@@ -1,7 +1,7 @@
 ---
 title: "Can R Notebooks help with reproducibility?"
 author:
-- Kevin Ha - 
+- Kevin Ha - 571821
 - Ola Andre Olofsson - 170745
 fontsize: 12pt
 output:
@@ -55,18 +55,18 @@ According to a analysis conducted by @mcculloughOpenAccessEconomics2009, most ec
 
 Some important points to highlight that can cause problems with reproducibility in R Notebook is:
 
-1.  System or version incompatibility
+1.  **System or version incompatibility**
 
 -   Packages, software, etc.
 
-2.  Advancement or changes in theories
+2.  **Advancement or changes in theories**
 
-3.  Human error
+3.  **Human error**
 
 -   May only be reduced to a certain degree
 -   Forgetting to add information and data
 
-4.  Motivation
+4.  **Motivation**
 
 -   Certainty relies on willingness
 -   Willingness to turn in all data, code, information, etc.
@@ -77,11 +77,23 @@ There's also the human factor. Human error such as a misunderstanding of the sub
 
 Finally, there's also willingness. Creating a big R Notebook or computable document with 1000s of observations, formulas, calculations, analysis, creating data sets and sourcing it all can be a huge workload. If the person or group takes a shortcut or leaves something out because they think it's not necessary to write down or forgets to add it, we're once again missing information. Without that information we can't reproduce the research, and if we must ask the author for the data and information they didn't add, part of the point with computable documents for reproducing is lost. On top of that, we're relying on the author(s) actually having the data on hand or remembering it correctly after potentially years.
 
+R Notebook have a function to make reproducibility more viable, and that is the *sessionInfo()* command in the console.
+
+```{r Session Info}
+sessionInfo()
+```
+
+Now what does this function do and what does it tell the reader? Simple: it gives us detailed information about the systems we're using. The command tells us everything from language, R version, OS platform, base and external packages and it's versions used in this specific document. This function can help with reproducibility by telling the next group of researchers what system and what they need to reproduce the research and it's result in the document.
+
+Researchers trying to reproduce the results still need to understand and interpret the information and have access to the packages as they were during the research. An OS platform with the same system and build as it were when the research was performed is also crucial.
+
 # Conclusion
 
-The question was «can R Notebook help with reproducibility?». The short answer is yes, it can help, but it doesn't solve the problem, atleast not yet. There's quite a few issues with the current R Notebook system and computable documents.
+The question was «can R Notebook help with reproducibility?». The short answer is yes, it can help, but it doesn't solve the problem, *atleast not yet*. There's quite a few issues with the current R Notebook system and computable documents.
 
-To summarize, computable documents like R Notebook definitly helps with reproducibilty, but it doesn't solve the issue, atleast not yet. There are currently too many problems both human and technical. There's progress in these areas like using identical computer setups from a server, libraries of software and packages, as they were, are currently being developed, the option to check the system for the setup it used when the research was first done, and so on. So while it doesn't fix the issue, it jelps and it's definitly a step in the right direction.
+The *sessionInfo()* command also goes a long way with reproducing research by giving researchers access to detailed information about what's used in the survey, but as pointed out in the discussion, it's not all green pastures. 
+
+To summarize, computable documents like R Notebook definitely helps with reproducibilty, but it doesn't solve the issue, atleast not yet. There are currently too many problems both human and technical. There's progress in these areas like using identical computer setups from a server, libraries of software and packages, as they were, are currently being developed, the option to check the system for the setup it used when the research was first done, and so on. So while it doesn't fix the issue, it helps and it's definitely a step in the right direction.
 
 # Reference
 
@@ -90,4 +102,6 @@ To summarize, computable documents like R Notebook definitly helps with reproduc
 
 # Appendix
 
-![](Commits_And_Branches.PNG)
+![](Merge_Conflict_OA.PNG)
+
+![](Merge_Conflict_KH.JPEG)
