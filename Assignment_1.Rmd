@@ -1,8 +1,14 @@
 ---
 title: "Can R Notebooks help with reproducibility?"
+author:
+- Kevin Ha - 
+- Ola Andre Olofsson - 170745
+fontsize: 12pt
+linestrech: 1.5
 output:
   pdf_document: default
-  html_notebook: default
+  html_document:
+    df_print: paged
   word_document: default
 bibliography: Reproducibilty_Zotero.bib
 ---
@@ -71,10 +77,6 @@ The question was «can R Notebook help with reproducibility?». The short answer
 To summarize, computable documents like R Notebook definitly helps with reproducibilty, but it doesn't solve the issue, atleast not yet. There are currently too many problems both human and technical. There's progress in these areas like using identical computer setups from a server, libraries of software and packages, as they were, are currently being developed, the option to check the system for the setup it used when the research was first done, and so on. So while it doesn't fix the issue, it jelps and it's definitly a step in the right direction.
 
 # Reference
-
-::: {#refs}
-:::
+<div id="refs"></div>
 
 # Appendix
-
-![](data/Test_bilde.PNG)

@@ -1,10 +1,16 @@
 ---
 title: "Can R Notebooks help with reproducibility?"
+author: 
+  - Kevin Ha
+  - Ola Andre Olofsson
+classoption: twoside
+fontsize: 12pt
+linestretch: 1.5
 output:
   pdf_document: default
   html_notebook: default
   word_document: default
-bibliography: Reproducibilty_Zotero.bib
+bibliography: OA&Kevin_Zotero.bib
 ---
 
 # Introduction
