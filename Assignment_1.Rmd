@@ -89,3 +89,5 @@ To summarize, computable documents like R Notebook definitly helps with reproduc
 :::
 
 # Appendix
+
+![](Commits_And_Branches.PNG)
