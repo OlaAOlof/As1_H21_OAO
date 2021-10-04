@@ -1,0 +1,12 @@
+---
+title: "ag comments"
+output: html_notebook
+---
+
+-   Dokumentet kjørte fint til html, pdf og docx format. Bra!
+
+-   Se bruk av inline og ikke-inline referanse under *What is reproducibility?* Referansen Patil et al er ikke-inline, mens Stanovich er inline (dvs. del av den vanlige teksten).
+
+-   Lagt inn et par forslag til endringer i språk. Aksepter hvis dere er enige, ellers ignorer
+
+-   Er ikke helt sikker på at jeg er ening i alt dere skriver om reproduserbarhet og R Notebooks, men det var heller ikke poenget her ;-)
